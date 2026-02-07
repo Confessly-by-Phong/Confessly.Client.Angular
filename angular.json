@@ -6,7 +6,7 @@
   },
   "newProjectRoot": "projects",
   "projects": {
-    "Confessly.Angular": {
+    "confessly.client": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -56,10 +56,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Confessly.Angular:build:production"
+              "buildTarget": "confessly.client:build:production"
             },
             "development": {
-              "buildTarget": "Confessly.Angular:build:development"
+              "buildTarget": "confessly.client:build:development"
             }
           },
           "defaultConfiguration": "development"

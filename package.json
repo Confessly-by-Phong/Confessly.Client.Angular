@@ -1,5 +1,5 @@
 {
-  "name": "confessly.angular",
+  "name": "confessly.client",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
